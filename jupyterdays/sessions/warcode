@@ -1,0 +1,125 @@
+# JupyterDays 2020: Accessibility and inclusivity in teaching data science
+
+1:00-1:30pm Day 2 on Inclusive Teaching
+
+## Inclusive Teaching
+
+Accessibility: introducing supports and removing barriers to allow participation by people who might otherwise be excluded or marginalized.  (Who can get into the room to participate at all?)
+
+Inclusivity: introducing supports and removing barriers to enable people to keep participating who might otherwise be excluded or marginalized.  (Who will be able to stay in the room and fully participate?)
+
+Today: some highlights of what to consider in the context of online teaching of scientific computing and data science.
+
+Key message: you can design things that can make a huge difference to some and even help beyond any specific group that you are trying to support.
+
+## How you set up your "classroom"
+## What happens in the "classroom"
+## The content you choose
+## How you interact with students
+
+
+
+## How you set up your "classroom" matters
+
+### Putting together a stack
+A classic concern in teaching scientific programming and data science: software installation headaches.    
+
+A resource like syzygy helps takes care of this issue in several ways: students access via browser, login is via an existing institutional account.
+
+
+### Classroom activity
+Live coding is great!  Students can see effective practices, live responses/troubleshooting to hiccups/bugs/mistakes.
+
+Poll: screen use
+
+Further thought - how do people catch up in the online setting if they miss an instruction or important phrase?  It's easier to miss things with this juggling than just managing their own screen in class.
+
+
+### Accessibility of course resources
+
+Helpful guide, from CTLT's Online Teaching Program: https://canvas.ubc.ca/courses/52088/pages/5-dot-6-developing-accessible-content?module_item_id=1880984
+(includes valuable links to OER Accessibility Toolkit and Canvas-specific tips)
+
+Poll: captions in videos
+
+We will add captions to the recordings. (show example in Kaltura)
+Auto-captioning is coming to Zoom at UBC soon.
+
+iframes (accessibility in Canvas question from Day 1) seem to be okay, some guidelines here (not Canvas specific): https://accessibility.psu.edu/frames/ (PSU's https://accessibility.psu.edu is very comprehensive)
+
+
+## What happens in the "classroom" matters
+
+### Code of Conduct
+DCSI 100 example, note: includes people to contact (primary being the course instructor, but an alternate is provided): https://github.com/UBC-DSCI/dsci-100/blob/master/CODE_OF_CONDUCT.md
+
+Statement of inclusion, expected (positive) behaviour, unacceptable behaviour, consequences, reporting procedure.
+
+
+### Zoom participation
+Students have a variety of housing situations and devices, in some cases very limited - requiring they join with video can be an burden or infeasible for many.  Even a steady, uninterrupted audio connection may be an issue.  This doesn't mean avoiding live sessions completely, but rather making participation possible under a variety of circumstances.  Recordings that can be used to catch up later will help smooth out a number of challenges (e.g., connection issues, time zones, device access).
+
+
+
+## The content you choose matters
+
+### Data involving gender
+
+There are valid reasons to work with data about gender, e.g., looking at the representation of women in STEM programs.
+UBC student records contain only binary "M" or "F" in the database; even if this is improved at some point, all the data up until at least 2020 will have this M/F approach.  For our current learning analytics project, we are including a disclaimer in presentations/publications:
+"UBC student records contain only binary gender data (i.e., "Male" vs. "Female").  Our models are based on the categorization of all students into these two categories.
+This does not reflect the views of UBC, the Faculty of Science, nor ourselves; gender is a multifaceted concept and under ideal circumstances we would be able to compare the experiences of students of a variety of gender identities."
+https://equity.ubc.ca/resources/gender-diversity/beyond-the-binary-at-ubc/
+
+
+### The Lenna image
+
+A very popular standard test image for image processing research from 1973 until relatively recently is/was the Lena ("Lenna") face, cropped from a Playboy centerfold image by researchers.  Concerns that this and other suggestive images reinforce gender stereotypes in an already male-dominated field have been raised for many years but have gained more traction recently; in 2018, the _Nature Research_ family of journals announced that they would no longer consider articles using the Lenna image.  (https://en.wikipedia.org/wiki/Lenna)
+
+
+### The _iris_ data set
+
+R. Fisher's 1936 paper on the _iris_ data was published in the _Annals of Eugenics_, research in support of eugenics programs.  (See: "It's time to retire the iris dataset": https://armchairecology.blog/iris-dataset/)
+
+But there are other options for simple data sets that provide contrasts for teaching purposes without this awful history, for example the new _palmerpenguins_ data set: https://allisonhorst.github.io/palmerpenguins/
+
+
+### Getting ahead of these issues
+
+One approach could be to seek out data sets with social justice in mind.
+
+For example, recent session _Teaching with Data for the Public Good — Invited Papers Section on Statistics and Data Science Education, International Association for Statistical Education_ (
+https://ww2.amstat.org/meetings/jsm/2020/onlineprogram/ActivityDetails.cfm?SessionID=219247) had examples of racial profiling in "stop data" by police, and of modeling who is systematically missed in census counts.
+
+For further consideration: _Data Feminism_ by Catherine D'Ignazio and Lauren F. Klein: https://data-feminism.mitpress.mit.edu/
+
+
+
+## How you interact with students matters
+
+A couple of examples from Greg Wilson's _Teaching Tech Together_ (https://teachtogether.tech/en/index.html#s:motivation-demotivation) on ways you can **demotivate** learners:
+
+"Telling them that their existing skills are rubbish.
+
+    Unix users sneer at Windows, programmers of all kinds make jokes about Excel, and no matter what web application framework you already know, some programmer will tell you that it’s out of date. Learners have often invested a lot of time and effort into acquiring the skills they have; disparaging them is a good way to guarantee that they won’t listen to anything else you have to say."
+
+"Using the J word ("just") or feigning surprise.
+
+    ... saying things like “I can’t believe you don’t know X” or “you’ve never heard of Y?” signals to the learner that the teacher thinks their problem is trivial and that they must be stupid for not being able to figure it out."
+
+It can be very easy to slip into these and the other examples (as experts, it is cognitively difficult to put ourselves in the position of novices) - watch out for this as it can be difficult to get people back once their motivation is gone. 
+
+(Lots more to read at: https://teachtogether.tech)
+
+
+## Summary
+
+### What happens in the "classroom" matters
+### The content you choose matters
+### How you set up your "classroom" matters
+### How you interact with students matters
+
+Discussion: what aspects of accessibility and inclusion are you struggling with in your current course planning?
+
+
+Check out Skylight's resource for online teaching for UBC Science faculty as you are putting things together: https://canvas.ubc.ca/courses/51366 (Need access? Self-enroll link: https://canvas.ubc.ca/enroll/7JHBRR)
